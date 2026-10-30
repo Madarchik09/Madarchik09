@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090E"/>
+      <stop offset="50%" stop-color="#0D111A"/>
+      <stop offset="100%" stop-color="#080B11"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#34D399;#38BDF8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#34D399;#38BDF8;#818CF8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#38BDF8;#818CF8;#34D399" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow1" cx="20%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="85%" cy="80%" r="45%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#glow1)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#glow2)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1200" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Top Status Pill -->
+  <g transform="translate(64, 46)">
+    <rect x="0" y="0" width="236" height="30" rx="15" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="18" cy="15" r="4.5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing="1.2">AI SYSTEMS &amp; INFRA ONLINE</text>
+  </g>
+
+  <!-- Main Heading -->
+  <g transform="translate(64, 134)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="52" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Aiur Tsy</text>
+    <text x="235" y="-2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="500" fill="#64748B">@Madarchik09</text>
+    <text x="0" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="21" font-weight="600" fill="url(#accent)">AI Automation Engineer • Multi-Agent Workflows • Full-Stack Builder</text>
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="15.5" fill="#94A3B8">Building high-concurrency LLM gateways, autonomous coding &amp; media pipelines (Veo / Seedance / Flow),</text>
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="15.5" fill="#94A3B8">n8n cloud automations, Telegram Mini Apps, and modern Next.js interfaces.</text>
+  </g>
+
+  <!-- Bottom Feature Tags -->
+  <g transform="translate(64, 276)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#E2E8F0">
+    <rect x="0" y="0" width="182" height="36" rx="8" fill="#111827" stroke="#1E293B"/>
+    <text x="16" y="23" fill="#38BDF8">⚡</text>
+    <text x="38" y="23">LLM API Gateways</text>
+
+    <rect x="196" y="0" width="196" height="36" rx="8" fill="#111827" stroke="#1E293B"/>
+    <text x="212" y="23" fill="#818CF8">🤖</text>
+    <text x="234" y="23">MCP &amp; Agent Systems</text>
+
+    <rect x="406" y="0" width="196" height="36" rx="8" fill="#111827" stroke="#1E293B"/>
+    <text x="422" y="23" fill="#34D399">🎬</text>
+    <text x="444" y="23">AI Video Pipelines</text>
+
+    <rect x="616" y="0" width="190" height="36" rx="8" fill="#111827" stroke="#1E293B"/>
+    <text x="632" y="23" fill="#F472B6">⚙️</text>
+    <text x="654" y="23">n8n &amp; Telegram Bots</text>
+  </g>
+
+  <!-- Right Terminal Card -->
+  <g transform="translate(855, 52)">
+    <rect x="0" y="0" width="290" height="256" rx="12" fill="#0B0F17" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="290" height="34" rx="12" fill="#111827"/>
+    <circle cx="18" cy="17" r="5" fill="#EF4444"/>
+    <circle cx="34" cy="17" r="5" fill="#F59E0B"/>
+    <circle cx="50" cy="17" r="5" fill="#10B981"/>
+    <text x="112" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">opencode ~ zsh</text>
+
+    <g transform="translate(18, 58)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+      <text x="0" y="0" fill="#34D399">❯</text>
+      <text x="16" y="0" fill="#F8FAFC">whoami --stack</text>
+
+      <text x="0" y="28" fill="#64748B">// Core Models</text>
+      <text x="0" y="48" fill="#38BDF8">• Gemini 4 Argon / 3.8</text>
+      <text x="0" y="68" fill="#818CF8">• Claude Opus / Sonnet</text>
+      <text x="0" y="88" fill="#34D399">• DeepSeek R1 / V4</text>
+
+      <text x="0" y="120" fill="#64748B">// Runtime &amp; Cloud</text>
+      <text x="0" y="140" fill="#E2E8F0">• Next.js • TypeScript • Go</text>
+      <text x="0" y="160" fill="#E2E8F0">• Python • FastAPI • Docker</text>
+      <text x="0" y="180" fill="#E2E8F0">• Supabase • Vercel • n8n</text>
+    </g>
+  </g>
+</svg>
