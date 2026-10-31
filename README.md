@@ -71,7 +71,7 @@
 ### 📈 GitHub Telemetry, Languages & Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Madarchik09/Madarchik09/main/assets/stats.svg" width="100%" alt="GitHub Stats, Languages and Animated Snake" />
+  <img src="https://raw.githubusercontent.com/Madarchik09/Madarchik09/main/assets/stats.svg?v=2" width="100%" alt="GitHub Stats, Languages and Animated Snake" />
 </div>
 
 ---
